@@ -1,0 +1,86 @@
+# macOS Alacritty Profile - Command Key Bindings
+
+[general]
+theme = "Kanagawa Dragon"
+
+# macOS specific theme
+[colors.theme]
+# Optional: override colors if needed
+
+# macOS Command Key Bindings for tmux
+
+# Cmd+1~9 to switch tmux windows
+[[keyboard.bindings]]
+chars = "\u00011"
+key = "Key1"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u00012"
+key = "Key2"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u00013"
+key = "Key3"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u00014"
+key = "Key4"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u00015"
+key = "Key5"
+mods = "Command|Shift"
+
+# Cmd+← → to switch previous/next window
+[[keyboard.bindings]]
+chars = "\u0001p"
+key = "Left"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001n"
+key = "Right"
+mods = "Command|Shift"
+
+# Cmd+T to create new tmux window
+[[keyboard.bindings]]
+chars = "\u0001c"
+key = "T"
+mods = "Command|Shift"
+
+# Cmd+W to close tmux window
+[[keyboard.bindings]]
+chars = "\u0001&"
+key = "W"
+mods = "Command|Shift"
+
+# Cmd+hjkl to navigate tmux panes
+[[keyboard.bindings]]
+chars = "\u0001h"
+key = "H"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001j"
+key = "J"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001k"
+key = "K"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001l"
+key = "L"
+mods = "Command|Shift"
+
+# Cmd+M to toggle pane zoom
+[[keyboard.bindings]]
+chars = "\u0001m"
+key = "M"
+mods = "Command|Shift"

@@ -1,0 +1,86 @@
+# WSL2 Alacritty Profile - Ctrl+Shift Key Bindings
+
+[general]
+theme = "Kanagawa Dragon"
+
+# WSL2 specific theme override
+[colors.theme]
+# Optional: override colors if needed
+
+# WSL2 Ctrl+Shift Key Bindings for tmux
+
+# Ctrl+Shift+1~9 to switch tmux windows
+[[keyboard.bindings]]
+chars = "\u00011"
+key = "Key1"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u00012"
+key = "Key2"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u00013"
+key = "Key3"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u00014"
+key = "Key4"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u00015"
+key = "Key5"
+mods = "Control|Shift"
+
+# Ctrl+Shift+← → to switch previous/next window
+[[keyboard.bindings]]
+chars = "\u0001p"
+key = "Left"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001n"
+key = "Right"
+mods = "Control|Shift"
+
+# Ctrl+Shift+T to create new tmux window
+[[keyboard.bindings]]
+chars = "\u0001c"
+key = "T"
+mods = "Control|Shift"
+
+# Ctrl+Shift+W to close tmux window
+[[keyboard.bindings]]
+chars = "\u0001&"
+key = "W"
+mods = "Control|Shift"
+
+# Ctrl+Shift+hjkl to navigate tmux panes
+[[keyboard.bindings]]
+chars = "\u0001h"
+key = "H"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001j"
+key = "J"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001k"
+key = "K"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001l"
+key = "L"
+mods = "Control|Shift"
+
+# Ctrl+Shift+M to toggle pane zoom
+[[keyboard.bindings]]
+chars = "\u0001m"
+key = "M"
+mods = "Control|Shift"
